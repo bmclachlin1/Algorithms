@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void selection_sort(vector<int>& arr) {
+void selectionSort(vector<int>& arr) {
     int len = arr.size();
 
     for (int i = 0; i < len - 1; i++) {
@@ -25,7 +25,7 @@ int main() {
         cout << e << " ";
     }
     cout << endl;
-    selection_sort(elems);
+    selectionSort(elems);
     cout << "Sorted Array" << endl;
     for (const auto& e: elems) {
         cout << e << " ";
